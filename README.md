@@ -9,7 +9,7 @@ A collection of end-to-end Machine Learning projects covering data cleaning, EDA
 | Project | Description | Status |
 |---|---|---|
 | [Linear Regression](./linear-regression/) | Predicting medical insurance charges using Linear Regression | ✅ Complete |
-| [Logistic Regression](./logistic-regression/) | Loan approval prediction using Logistic Regression | 🔄 In Progress |
+| [Logistic Regression](./logistic-regression/) | Loan approval prediction using Logistic Regression | ✅ Complete |
 
 ---
 
