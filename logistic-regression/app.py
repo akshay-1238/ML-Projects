@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
+import os
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -81,11 +82,12 @@ html, body, [class*="css"] {
 """, unsafe_allow_html=True)
 
 # ── Load models ───────────────────────────────────────────────────────────────
+
 @st.cache_resource
 def load_models():
-    with open('loan_model_1.pkl', 'rb') as f:
+    with open(os.path.join(BASE_DIR, 'loan_model_1.pkl'), 'rb') as f:
         m1 = pickle.load(f)
-    with open('loan_model_2.pkl', 'rb') as f:
+    with open(os.path.join(BASE_DIR, 'loan_model_2.pkl'), 'rb') as f:
         m2 = pickle.load(f)
     return m1, m2
 
