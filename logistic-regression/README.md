@@ -71,4 +71,4 @@ streamlit run app.py
 | Model Training | ✅ Done |
 | Evaluation | ✅ Done |
 | Streamlit App | ✅ Done |
-| Deployment | 🔄 Pending |
+| Deployment |  ✅ Done |
