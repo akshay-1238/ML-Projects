@@ -1,6 +1,8 @@
 # Loan Approval Prediction — Logistic Regression
 Predicting whether a loan application will be approved or rejected based on applicant details.
 
+🚀 **[Try the Live App](https://ml-loan-approval.streamlit.app/)**
+
 ---
 
 ## Dataset
@@ -42,7 +44,25 @@ Predicting whether a loan application will be approved or rejected based on appl
 
 ---
 
+## Streamlit App
+
+An interactive web app lets you enter applicant details and get a prediction without touching any code.
+
+**Two modes:**
+- **Quick Check** — 3 inputs (Credit History, Property Area, Marital Status)
+- **Detailed Check** — 12 inputs (all features)
+
+**Run locally:**
+```bash
+# From the repo root
+pip install streamlit scikit-learn pandas
+streamlit run app.py
+```
+
+---
+
 ## Project Status
+
 | Step | Status |
 |---|---|
 | Data Cleaning | ✅ Done |
@@ -50,3 +70,5 @@ Predicting whether a loan application will be approved or rejected based on appl
 | Feature Selection | ✅ Done |
 | Model Training | ✅ Done |
 | Evaluation | ✅ Done |
+| Streamlit App | ✅ Done |
+| Deployment | 🔄 Pending |
