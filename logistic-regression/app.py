@@ -82,7 +82,7 @@ html, body, [class*="css"] {
 """, unsafe_allow_html=True)
 
 # ── Load models ───────────────────────────────────────────────────────────────
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 @st.cache_resource
 def load_models():
     with open(os.path.join(BASE_DIR, 'loan_model_1.pkl'), 'rb') as f:
